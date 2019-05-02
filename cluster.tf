@@ -3,7 +3,7 @@ module "primary-cluster" {
   source                               = "russmedia/kubernetes-cluster/google"
   version                              = "2.0.0"
   region                               = "us-east1"
-  zones                                = "[us-east4-b]"
+  zones                                = ["us-east4-b"]
   project                              = "linux-classs"
   environment                          = "Dev"
   min_master_version                   = "1.11.8"
