@@ -8,7 +8,7 @@ module "primary-cluster" {
   environment                          = "Dev"
   min_master_version                   = "1.11.8"
   network                              = "default"
-  nodes_subnet_ip_cidr_range           = "10.101.0.0/24"
+  nodes_subnet_ip_cidr_range           = "10.96.0.0/14"
   nodes_subnet_container_ip_cidr_range = "172.21.0.0/16"
   nodes_subnet_service_ip_cidr_range   = "10.201.0.0/16"
 
